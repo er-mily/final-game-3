@@ -284,10 +284,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "background2.png",
+        "file": "assets/background.png",
         "kind": "image",
         "metadata": "",
-        "name": "background2.png",
+        "name": "background.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -460,6 +460,15 @@
         "name": "Exclamation Mark4",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "background3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "background3.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -491,7 +500,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5843784410741008,
+        "zoomFactor": 0.46331118245140396,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -855,7 +864,7 @@
           "depth": 1,
           "height": 1193,
           "layer": "background",
-          "name": "NewSprite",
+          "name": "background",
           "persistentUuid": "40eefe59-a348-48d2-a5ce-0369e02c46d7",
           "width": 1044,
           "x": -22,
@@ -1571,7 +1580,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "background",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1588,7 +1597,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "background2.png",
+                      "image": "background.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1947,7 +1956,7 @@
             "objectName": "Collision"
           },
           {
-            "objectName": "NewSprite"
+            "objectName": "background"
           },
           {
             "objectName": "energyBar"
@@ -1996,8 +2005,8 @@
                 "",
                 "Action background music.mp3",
                 "",
-                "2",
-                ""
+                "25",
+                "1"
               ]
             },
             {
@@ -2407,7 +2416,7 @@
                     "3df4dbab92378e90141fcba051c383c0c4e25648bc1ae5c44af5a13551556095_Run_06.wav",
                     "1",
                     "yes",
-                    "15",
+                    "20",
                     "0.5"
                   ]
                 }
