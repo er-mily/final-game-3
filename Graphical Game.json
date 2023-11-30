@@ -447,7 +447,7 @@
         "alwaysLoaded": false,
         "file": "assets/Exclamation Mark3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Exclamation Mark3.png\"}",
         "name": "Exclamation Mark3",
         "smoothed": true,
         "userAdded": true
@@ -456,7 +456,7 @@
         "alwaysLoaded": false,
         "file": "assets/Exclamation Mark4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Exclamation Mark4.png\"}",
         "name": "Exclamation Mark4",
         "smoothed": true,
         "userAdded": true
@@ -649,6 +649,94 @@
         "name": "assets/banana_peel2",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/banana_peel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\banana_peel.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/apple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\apple.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_apple3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_apple3.png\"}",
+        "name": "assets/apple3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_apple4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/apple4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Kenney Blocks.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "b6fd0cb2a1206afe3882f0187839aac780734a091c5e6c57ee25c84acdc1a499_Kenney Blocks.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/b6fd0cb2a1206afe3882f0187839aac780734a091c5e6c57ee25c84acdc1a499_Kenney Blocks.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Kenney Pixel Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Kenney Pixel.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_banana_peel3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/banana_peel3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Action background music.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Action background music.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -680,7 +768,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5290357402156947,
+        "zoomFactor": 0.5653158055126467,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -807,8 +895,8 @@
           "name": "Collision",
           "persistentUuid": "45e46e5b-81d5-458b-bb82-809b9a9a19ca",
           "width": 45,
-          "x": 280,
-          "y": 766,
+          "x": 283,
+          "y": 769,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -898,13 +986,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 97,
+          "height": 98,
           "layer": "Collision",
           "name": "Collision",
           "persistentUuid": "5ceb1e47-cc93-4edb-bcf3-14660ceecb66",
           "width": 96,
-          "x": 681,
-          "y": 483,
+          "x": 674,
+          "y": 430,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -914,7 +1002,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 56,
+          "height": 25,
           "layer": "Collision",
           "name": "Collision",
           "persistentUuid": "885dbe1e-158a-4c2d-bd06-455f1b67f65b",
@@ -1033,7 +1121,7 @@
           "width": 50,
           "x": 489,
           "y": 551,
-          "zOrder": 44,
+          "zOrder": 53,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1105,13 +1193,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 30,
-          "layer": "",
+          "height": 109,
+          "layer": "Collision",
           "name": "chore",
           "persistentUuid": "e43f5f17-99aa-4e09-b370-ed73eb777c3c",
-          "width": 43,
-          "x": 528,
-          "y": 135,
+          "width": 65,
+          "x": 508,
+          "y": 65,
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
@@ -1153,13 +1241,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 30,
-          "layer": "",
+          "height": 81,
+          "layer": "Collision",
           "name": "chore",
           "persistentUuid": "5981c12e-742e-4162-8a50-253e7eaf063d",
           "width": 45,
           "x": 229,
-          "y": 434,
+          "y": 392,
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
@@ -1201,13 +1289,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 66,
-          "layer": "",
+          "height": 88,
+          "layer": "Collision",
           "name": "chore",
           "persistentUuid": "fcce2480-2ef8-412a-9f5c-25dc1e495df3",
-          "width": 54,
+          "width": 50,
           "x": 379,
-          "y": 143,
+          "y": 123,
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
@@ -1222,8 +1310,8 @@
           "name": "book",
           "persistentUuid": "2564be99-e086-48d7-b383-1b0e521a5443",
           "width": 46,
-          "x": 566,
-          "y": 580,
+          "x": 595,
+          "y": 542,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -1233,13 +1321,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 48,
-          "layer": "",
+          "height": 50,
+          "layer": "Collision",
           "name": "chore",
           "persistentUuid": "9df4bcb8-4ff4-432b-be46-6cabd0d53170",
-          "width": 58,
-          "x": 558,
-          "y": 572,
+          "width": 53,
+          "x": 593,
+          "y": 534,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -1254,8 +1342,8 @@
           "name": "ExclamationMark",
           "persistentUuid": "c8f65d38-38c5-4bfc-aff1-1b3ec4a3119c",
           "width": 39,
-          "x": 569,
-          "y": 549,
+          "x": 602,
+          "y": 511,
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
@@ -1281,13 +1369,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 85,
-          "layer": "",
+          "height": 87,
+          "layer": "Collision",
           "name": "chore",
           "persistentUuid": "01b05358-67c3-45ce-bf20-aa240dc2867d",
-          "width": 72,
-          "x": 123,
-          "y": 781,
+          "width": 56,
+          "x": 126,
+          "y": 761,
           "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
@@ -1312,13 +1400,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 65,
-          "layer": "",
+          "height": 62,
+          "layer": "Collision",
           "name": "chore",
           "persistentUuid": "a90a15ee-f150-4660-95bc-56c849ebfbe4",
           "width": 47,
           "x": 326,
-          "y": 430,
+          "y": 438,
           "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
@@ -1341,32 +1429,16 @@
           "initialVariables": []
         },
         {
-          "angle": 29,
-          "customSize": true,
-          "depth": 1,
-          "height": 25,
-          "layer": "",
-          "name": "apple_core",
-          "persistentUuid": "413dc767-7d47-45a7-b5fe-216652f5e233",
-          "width": 24,
-          "x": 831,
-          "y": 555,
-          "zOrder": 45,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 17,
+          "height": 14,
           "layer": "",
           "name": "banana_peel",
           "persistentUuid": "98fe3bb3-b226-4ff3-8be3-355e54888541",
           "width": 22,
           "x": 788,
-          "y": 527,
+          "y": 530,
           "zOrder": 46,
           "numberProperties": [],
           "stringProperties": [],
@@ -1381,8 +1453,8 @@
           "name": "banana_peel",
           "persistentUuid": "3b9af55b-c6b9-4675-b288-4143d797771c",
           "width": 22,
-          "x": 239,
-          "y": 856,
+          "x": 260,
+          "y": 904,
           "zOrder": 46,
           "numberProperties": [],
           "stringProperties": [],
@@ -1397,25 +1469,9 @@
           "name": "apple_core",
           "persistentUuid": "2f990fc8-0a91-40c2-a7c0-f1be06ea3c13",
           "width": 13,
-          "x": 429,
-          "y": 840,
+          "x": 443,
+          "y": 847,
           "zOrder": 47,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 12,
-          "layer": "",
-          "name": "crumpled_paper",
-          "persistentUuid": "d9083c12-de8b-4b81-b6aa-7bb93648142f",
-          "width": 19,
-          "x": 299,
-          "y": 878,
-          "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1429,40 +1485,8 @@
           "name": "crumpled_paper",
           "persistentUuid": "e51ba738-95a3-4d32-9227-7eb6f3150664",
           "width": 19,
-          "x": 230,
-          "y": 826,
-          "zOrder": 48,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 9,
-          "layer": "",
-          "name": "crumpled_paper",
-          "persistentUuid": "93c61ec2-16c1-45c6-a509-9386b3ca3f58",
-          "width": 13,
-          "x": 355,
-          "y": 835,
-          "zOrder": 48,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 230,
-          "customSize": true,
-          "depth": 1,
-          "height": 12,
-          "layer": "",
-          "name": "crumpled_paper",
-          "persistentUuid": "1b306e5b-2e1b-4094-b380-09c69d1d385a",
-          "width": 19,
-          "x": 173,
-          "y": 865,
+          "x": 305,
+          "y": 889,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -1477,8 +1501,8 @@
           "name": "book",
           "persistentUuid": "fab68476-5637-43c9-82e5-b5ab727b166b",
           "width": 25,
-          "x": 334,
-          "y": 880,
+          "x": 370,
+          "y": 906,
           "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
@@ -1493,9 +1517,9 @@
           "name": "book",
           "persistentUuid": "6d0fe23a-b799-454f-b41a-37bbddff5a7a",
           "width": 25,
-          "x": 147,
-          "y": 886,
-          "zOrder": 49,
+          "x": 241,
+          "y": 768,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1504,126 +1528,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 17,
+          "height": 16,
           "layer": "",
           "name": "banana_peel",
           "persistentUuid": "8cb29d5e-666a-42e5-887b-24bca4dcdcb4",
           "width": 22,
-          "x": 220,
-          "y": 529,
+          "x": 176,
+          "y": 503,
           "zOrder": 46,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 17,
-          "layer": "",
-          "name": "banana_peel",
-          "persistentUuid": "8b7979be-cdef-4b6e-890f-c2a2537251a8",
-          "width": 22,
-          "x": 376,
-          "y": 517,
-          "zOrder": 46,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 25,
-          "layer": "",
-          "name": "apple_core",
-          "persistentUuid": "3ca9f684-cd4a-4f60-8085-9b212e130527",
-          "width": 24,
-          "x": 151,
-          "y": 487,
-          "zOrder": 45,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 25,
-          "layer": "",
-          "name": "apple_core",
-          "persistentUuid": "8027c7f8-220f-4c4a-9fcf-7e89404efde6",
-          "width": 24,
-          "x": 288,
-          "y": 560,
-          "zOrder": 45,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 1,
-          "height": 12,
-          "layer": "",
-          "name": "crumpled_paper",
-          "persistentUuid": "0c1afeef-f336-4107-921e-7ee85cf48c1d",
-          "width": 19,
-          "x": 156,
-          "y": 547,
-          "zOrder": 48,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 1,
-          "height": 12,
-          "layer": "",
-          "name": "crumpled_paper",
-          "persistentUuid": "4bacd6c6-6588-44d9-9fb1-6705ebccd1f9",
-          "width": 19,
-          "x": 381,
-          "y": 571,
-          "zOrder": 48,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 1,
-          "height": 12,
-          "layer": "",
-          "name": "crumpled_paper",
-          "persistentUuid": "7ac98b61-bac1-40a7-a938-0edde2583337",
-          "width": 19,
-          "x": 439,
-          "y": 212,
-          "zOrder": 48,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 1,
-          "height": 12,
-          "layer": "",
-          "name": "crumpled_paper",
-          "persistentUuid": "a6cbe5f1-1d14-4872-bf1b-b11023929045",
-          "width": 19,
-          "x": 492,
-          "y": 259,
-          "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1632,13 +1544,509 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "UI",
           "name": "Countdown_Timer",
           "persistentUuid": "6bf8fb74-90b2-48d8-9c6d-271c197a4807",
           "width": 0,
-          "x": 876,
-          "y": 44,
+          "x": 881,
+          "y": 874,
           "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 18,
+          "layer": "",
+          "name": "crumpled_paper",
+          "persistentUuid": "fdb00430-c91f-49be-baed-328429c66070",
+          "width": 16,
+          "x": 463,
+          "y": 602,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 47,
+          "layer": "Collision",
+          "name": "chore",
+          "persistentUuid": "8b22a5bd-d185-4757-940d-e448b2d6d54a",
+          "width": 32,
+          "x": 454,
+          "y": 591,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 39,
+          "layer": "",
+          "name": "ExclamationMark",
+          "persistentUuid": "39576f38-f08b-4525-932f-a08afd0fe5c1",
+          "width": 39,
+          "x": 450,
+          "y": 560,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 58,
+          "customSize": true,
+          "depth": 1,
+          "height": 22,
+          "layer": "",
+          "name": "apple_core",
+          "persistentUuid": "4afa9712-bc11-4406-bc3a-972e4cdbc544",
+          "width": 15,
+          "x": 270,
+          "y": 604,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 50,
+          "layer": "Collision",
+          "name": "chore",
+          "persistentUuid": "d79cbf4b-d1ca-4175-87b4-ccff5baa2b56",
+          "width": 32,
+          "x": 261,
+          "y": 597,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 39,
+          "layer": "",
+          "name": "ExclamationMark",
+          "persistentUuid": "ce223959-c33c-4ab7-9489-06b96b1e6fae",
+          "width": 39,
+          "x": 260,
+          "y": 565,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 36,
+          "layer": "Collision",
+          "name": "chore",
+          "persistentUuid": "b49d6434-3d22-4eec-aa06-a18f48188795",
+          "width": 39,
+          "x": 170,
+          "y": 493,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 39,
+          "layer": "",
+          "name": "ExclamationMark",
+          "persistentUuid": "958aa104-ad4c-4bd5-8572-f5f0c343175e",
+          "width": 39,
+          "x": 169,
+          "y": 463,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 58,
+          "customSize": true,
+          "depth": 1,
+          "height": 22,
+          "layer": "",
+          "name": "apple_core",
+          "persistentUuid": "4ff38e26-743b-44c6-9153-0ee99a738935",
+          "width": 15,
+          "x": 840,
+          "y": 581,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 39,
+          "layer": "",
+          "name": "ExclamationMark",
+          "persistentUuid": "2599840d-de45-424d-b0ab-e315bd296a39",
+          "width": 39,
+          "x": 830,
+          "y": 545,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 39,
+          "layer": "",
+          "name": "ExclamationMark",
+          "persistentUuid": "9dd9da70-6022-4d8f-8624-51ac829365c8",
+          "width": 39,
+          "x": 784,
+          "y": 493,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "layer": "Collision",
+          "name": "chore",
+          "persistentUuid": "2333b355-c3d0-4ec4-a0c8-11fe715faa6a",
+          "width": 31,
+          "x": 831,
+          "y": 571,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 31,
+          "layer": "Collision",
+          "name": "chore",
+          "persistentUuid": "cd5a3e2a-9c8a-46a7-802b-a7e44ebda525",
+          "width": 31,
+          "x": 787,
+          "y": 521,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 69,
+          "layer": "Collision",
+          "name": "chore",
+          "persistentUuid": "fcb4ad8c-3eb8-4aeb-8b42-463e62dccc5a",
+          "width": 63,
+          "x": 365,
+          "y": 765,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 17,
+          "layer": "",
+          "name": "crumpled_paper",
+          "persistentUuid": "2d68a1cb-c9ce-4f14-99a8-d32fee5f6f43",
+          "width": 18,
+          "x": 446,
+          "y": 248,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 47,
+          "layer": "Collision",
+          "name": "chore",
+          "persistentUuid": "b0d73735-9128-407d-b7fd-da0bba64531f",
+          "width": 32,
+          "x": 438,
+          "y": 241,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 39,
+          "layer": "",
+          "name": "ExclamationMark",
+          "persistentUuid": "3dba15d5-3e86-45e6-8229-e0053b0e128e",
+          "width": 39,
+          "x": 435,
+          "y": 210,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 17,
+          "layer": "",
+          "name": "crumpled_paper",
+          "persistentUuid": "bf9895ab-34eb-4a56-b38f-4c013dc0e6e4",
+          "width": 18,
+          "x": 157,
+          "y": 880,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 33,
+          "layer": "Collision",
+          "name": "chore",
+          "persistentUuid": "8755a9e9-5372-407a-91e8-0082014c309d",
+          "width": 32,
+          "x": 148,
+          "y": 871,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 39,
+          "layer": "",
+          "name": "ExclamationMark",
+          "persistentUuid": "9fd304cb-e1b5-487d-b545-6132c3e73fa3",
+          "width": 39,
+          "x": 147,
+          "y": 840,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 23,
+          "layer": "Collision",
+          "name": "chore",
+          "persistentUuid": "33944b57-7f5a-4c17-9a69-6ed724d8ffab",
+          "width": 21,
+          "x": 261,
+          "y": 905,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 39,
+          "layer": "",
+          "name": "ExclamationMark",
+          "persistentUuid": "232095cb-58b0-4be5-9799-b9e99c677ddb",
+          "width": 39,
+          "x": 296,
+          "y": 850,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 47,
+          "layer": "Collision",
+          "name": "chore",
+          "persistentUuid": "b785fbe6-02e2-4711-bf65-db9e04722a8d",
+          "width": 29,
+          "x": 239,
+          "y": 767,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 22,
+          "layer": "Collision",
+          "name": "Collision",
+          "persistentUuid": "46fa94ba-a462-473a-a3d3-939da142d4d2",
+          "width": 143,
+          "x": 183,
+          "y": 762,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 39,
+          "layer": "",
+          "name": "ExclamationMark",
+          "persistentUuid": "8f9e3761-03c4-4827-b9e2-71e9b07941f7",
+          "width": 39,
+          "x": 235,
+          "y": 735,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 31,
+          "layer": "Collision",
+          "name": "chore",
+          "persistentUuid": "349f7217-ed0e-4711-a2a2-2a4fc5808c39",
+          "width": 26,
+          "x": 436,
+          "y": 842,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 39,
+          "layer": "",
+          "name": "ExclamationMark",
+          "persistentUuid": "36ffdf69-a861-4dbe-9cf4-ff68fe62d08c",
+          "width": 39,
+          "x": 431,
+          "y": 813,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 33,
+          "layer": "Collision",
+          "name": "chore",
+          "persistentUuid": "e3fb0642-5f8a-41af-a2b9-ae976605f969",
+          "width": 26,
+          "x": 369,
+          "y": 901,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 39,
+          "layer": "",
+          "name": "ExclamationMark",
+          "persistentUuid": "b1d1b893-0e8e-42cc-8538-c5760a94723f",
+          "width": 39,
+          "x": 363,
+          "y": 866,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 20,
+          "layer": "Collision",
+          "name": "chore",
+          "persistentUuid": "550bf339-1f3e-476a-903f-17c9bc55a5a1",
+          "width": 19,
+          "x": 305,
+          "y": 882,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 39,
+          "layer": "",
+          "name": "ExclamationMark",
+          "persistentUuid": "62ef4f10-8704-45e6-bcb5-73a546679fd6",
+          "width": 39,
+          "x": 255,
+          "y": 868,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2851,7 +3259,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/apple2",
+                      "image": "assets/apple4",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2867,20 +3275,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 1,
-                            "y": 22
+                            "x": 11,
+                            "y": 15
                           },
                           {
-                            "x": 279,
-                            "y": 22
+                            "x": 266,
+                            "y": 15
                           },
                           {
-                            "x": 279,
-                            "y": 417
+                            "x": 266,
+                            "y": 398
                           },
                           {
-                            "x": 1,
-                            "y": 417
+                            "x": 11,
+                            "y": 398
                           }
                         ]
                       ]
@@ -2912,7 +3320,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/banana_peel2",
+                      "image": "assets/banana_peel3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2928,20 +3336,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 10,
-                            "y": 0
+                            "x": 12,
+                            "y": 9
                           },
                           {
-                            "x": 391,
-                            "y": 0
+                            "x": 388,
+                            "y": 9
                           },
                           {
-                            "x": 391,
-                            "y": 223
+                            "x": 388,
+                            "y": 220
                           },
                           {
-                            "x": 10,
-                            "y": 223
+                            "x": 12,
+                            "y": 220
                           }
                         ]
                       ]
@@ -2954,7 +3362,7 @@
         },
         {
           "assetStoreId": "",
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "Countdown_Timer",
           "smoothed": true,
@@ -2963,8 +3371,8 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "00",
-          "font": "",
+          "string": "25",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
           "textAlignment": "left",
           "characterSize": 70,
           "color": {
@@ -3101,10 +3509,11 @@
             },
             {
               "type": {
-                "value": "Cache"
+                "value": "Montre"
               },
               "parameters": [
-                "chore"
+                "chore",
+                ""
               ]
             },
             {
@@ -3154,7 +3563,7 @@
                 "Countdown_Timer",
                 "Text",
                 "=",
-                "ToString(round(abs(TimerElapsedTime(\"CountDown\")-10)))"
+                "ToString(round(abs(TimerElapsedTime(\"CountDown\")-120)))"
               ]
             }
           ]
@@ -3168,9 +3577,9 @@
               },
               "parameters": [
                 "",
-                "\"Countdown\"",
+                "\"CountDown\"",
                 ">=",
-                "10"
+                "120"
               ]
             }
           ],
@@ -3368,7 +3777,7 @@
                     "player",
                     "energy",
                     ">=",
-                    "2"
+                    "1"
                   ]
                 }
               ],
@@ -3397,7 +3806,7 @@
                     "player",
                     "energy",
                     ">=",
-                    "4"
+                    "3"
                   ]
                 }
               ],
@@ -3814,6 +4223,18 @@
                         ">=",
                         "choreProgress.MaxValue()"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "chore",
+                        "ExclamationMark",
+                        "",
+                        "",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -3823,6 +4244,15 @@
                       },
                       "parameters": [
                         "ExclamationMark",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "chore",
                         ""
                       ]
                     },
@@ -3854,6 +4284,104 @@
                       },
                       "parameters": [
                         "choreProgress"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "picking up trash"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "chore",
+                            "crumpled_paper",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "crumpled_paper",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "chore",
+                            "banana_peel",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "banana_peel",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "chore",
+                            "apple_core",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "apple_core",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -3894,7 +4422,7 @@
                   "parameters": [
                     "player",
                     "addEnergy",
-                    "150",
+                    "100",
                     ""
                   ]
                 },
