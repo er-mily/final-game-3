@@ -768,7 +768,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5653158055126467,
+        "zoomFactor": 0.4633111824514126,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1146,13 +1146,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 32,
-          "height": 25,
+          "height": 49,
           "layer": "UI",
           "name": "energyBar",
           "persistentUuid": "5e08b31f-22e8-48fc-adf9-b4f0891eadbb",
-          "width": 134,
-          "x": 812,
-          "y": 933,
+          "width": 207,
+          "x": 739,
+          "y": 909,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -1160,14 +1160,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 91,
           "layer": "UI",
           "name": "energy_icon",
           "persistentUuid": "491c4fd8-ab64-4166-afce-a0b8c79fb369",
-          "width": 0,
-          "x": 753,
-          "y": 909,
+          "width": 96,
+          "x": 659,
+          "y": 882,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
@@ -1548,8 +1549,8 @@
           "name": "Countdown_Timer",
           "persistentUuid": "6bf8fb74-90b2-48d8-9c6d-271c197a4807",
           "width": 0,
-          "x": 881,
-          "y": 874,
+          "x": 793,
+          "y": 826,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -2659,14 +2660,14 @@
           },
           "childrenContent": {
             "Background": {
-              "bottomMargin": 4,
-              "height": 26,
-              "leftMargin": 2,
-              "rightMargin": 2,
+              "bottomMargin": 0,
+              "height": 30,
+              "leftMargin": 0,
+              "rightMargin": 0,
               "texture": "Dot Bar Blue Border.png",
               "tiled": false,
               "topMargin": 3,
-              "width": 118
+              "width": 122
             },
             "Buffer": {
               "bottomMargin": 0,
@@ -3371,14 +3372,14 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "25",
+          "string": "100",
           "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
           "textAlignment": "left",
-          "characterSize": 70,
+          "characterSize": 100,
           "color": {
-            "b": 243,
-            "g": 139,
-            "r": 209
+            "b": 28,
+            "g": 231,
+            "r": 248
           }
         }
       ],
@@ -3563,7 +3564,7 @@
                 "Countdown_Timer",
                 "Text",
                 "=",
-                "ToString(round(abs(TimerElapsedTime(\"CountDown\")-120)))"
+                "ToString(round(abs(TimerElapsedTime(\"CountDown\")-100)))"
               ]
             }
           ]
@@ -3579,7 +3580,7 @@
                 "",
                 "\"CountDown\"",
                 ">=",
-                "120"
+                "100"
               ]
             }
           ],
