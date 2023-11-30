@@ -680,7 +680,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2817259932079615,
+        "zoomFactor": 0.5290357402156947,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1341,22 +1341,6 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 25,
-          "layer": "",
-          "name": "apple_core",
-          "persistentUuid": "85b65638-54c4-42fa-8714-9c516e15b2f1",
-          "width": 24,
-          "x": 795,
-          "y": 507,
-          "zOrder": 45,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 29,
           "customSize": true,
           "depth": 1,
@@ -1382,39 +1366,7 @@
           "persistentUuid": "98fe3bb3-b226-4ff3-8be3-355e54888541",
           "width": 22,
           "x": 788,
-          "y": 555,
-          "zOrder": 46,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 17,
-          "layer": "",
-          "name": "banana_peel",
-          "persistentUuid": "899d6b6e-2ac6-4416-a265-f0d15da71a4c",
-          "width": 22,
-          "x": 834,
-          "y": 504,
-          "zOrder": 46,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 17,
-          "layer": "",
-          "name": "banana_peel",
-          "persistentUuid": "f04a579e-7b29-40f2-9c4c-665367bad43e",
-          "width": 22,
-          "x": 593,
-          "y": 517,
+          "y": 527,
           "zOrder": 46,
           "numberProperties": [],
           "stringProperties": [],
@@ -1501,22 +1453,6 @@
           "initialVariables": []
         },
         {
-          "angle": 135,
-          "customSize": true,
-          "depth": 1,
-          "height": 12,
-          "layer": "",
-          "name": "crumpled_paper",
-          "persistentUuid": "137608c1-4b33-4345-89bd-506afa9b6437",
-          "width": 19,
-          "x": 390,
-          "y": 890,
-          "zOrder": 48,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 230,
           "customSize": true,
           "depth": 1,
@@ -1527,38 +1463,6 @@
           "width": 19,
           "x": 173,
           "y": 865,
-          "zOrder": 48,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 12,
-          "layer": "",
-          "name": "crumpled_paper",
-          "persistentUuid": "f9dee11a-b797-4a19-a7d4-20cf5a7a3eb8",
-          "width": 19,
-          "x": 189,
-          "y": 880,
-          "zOrder": 48,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 12,
-          "layer": "",
-          "name": "crumpled_paper",
-          "persistentUuid": "aa1ba5ed-a48d-442f-bb59-0350bb9d311b",
-          "width": 19,
-          "x": 260,
-          "y": 831,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -1605,24 +1509,8 @@
           "name": "banana_peel",
           "persistentUuid": "8cb29d5e-666a-42e5-887b-24bca4dcdcb4",
           "width": 22,
-          "x": 189,
+          "x": 220,
           "y": 529,
-          "zOrder": 46,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 17,
-          "layer": "",
-          "name": "banana_peel",
-          "persistentUuid": "ca2f40c8-f1b4-4187-bbb2-f0426feec4fc",
-          "width": 22,
-          "x": 323,
-          "y": 589,
           "zOrder": 46,
           "numberProperties": [],
           "stringProperties": [],
@@ -1669,24 +1557,8 @@
           "name": "apple_core",
           "persistentUuid": "8027c7f8-220f-4c4a-9fcf-7e89404efde6",
           "width": 24,
-          "x": 250,
+          "x": 288,
           "y": 560,
-          "zOrder": 45,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 25,
-          "layer": "",
-          "name": "apple_core",
-          "persistentUuid": "7a0b538f-a40e-4066-afd8-23b2638cc515",
-          "width": 24,
-          "x": 300,
-          "y": 515,
           "zOrder": 45,
           "numberProperties": [],
           "stringProperties": [],
@@ -1752,6 +1624,21 @@
           "x": 492,
           "y": 259,
           "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Countdown_Timer",
+          "persistentUuid": "6bf8fb74-90b2-48d8-9c6d-271c197a4807",
+          "width": 0,
+          "x": 876,
+          "y": 44,
+          "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3064,6 +2951,27 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Countdown_Timer",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "00",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 70,
+          "color": {
+            "b": 243,
+            "g": 139,
+            "r": 209
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -3110,6 +3018,9 @@
           },
           {
             "objectName": "banana_peel"
+          },
+          {
+            "objectName": "Countdown_Timer"
           }
         ]
       },
@@ -3218,6 +3129,60 @@
               },
               "parameters": [
                 "eatProgress"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"CountDown\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Countdown_Timer",
+                "Text",
+                "=",
+                "ToString(round(abs(TimerElapsedTime(\"CountDown\")-10)))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Countdown\"",
+                ">=",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"EndOfGame\"",
+                ""
               ]
             }
           ]
@@ -4243,8 +4208,151 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "EndOfGame",
+      "name": "EndOfGame",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.7,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 28,
+          "layer": "",
+          "name": "End",
+          "persistentUuid": "38a564e8-8c41-4d1a-9add-a4865ec712e0",
+          "width": 84,
+          "x": 420,
+          "y": 371,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "End",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "The End",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "End"
+          }
+        ]
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     }
