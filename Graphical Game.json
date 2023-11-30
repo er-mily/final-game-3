@@ -586,6 +586,69 @@
         "name": "pixel_book2",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/crumpled_paper.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/crumpled_paper.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/apple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/apple.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/banana_peel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/banana_peel.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_banana_peel.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/banana_peel",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_apple.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/apple",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_apple2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/apple2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_banana_peel2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/banana_peel2",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -617,7 +680,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.40575189059438804,
+        "zoomFactor": 0.2817259932079615,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1138,22 +1201,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 60,
-          "layer": "",
-          "name": "chore",
-          "persistentUuid": "030c2b60-53b6-463a-8a90-87a2df82e5c0",
-          "width": 55,
-          "x": 370,
-          "y": 790,
-          "zOrder": 36,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 66,
           "layer": "",
           "name": "chore",
@@ -1186,12 +1233,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 64,
+          "height": 48,
           "layer": "",
           "name": "chore",
           "persistentUuid": "9df4bcb8-4ff4-432b-be46-6cabd0d53170",
-          "width": 74,
-          "x": 554,
+          "width": 58,
+          "x": 558,
           "y": 572,
           "zOrder": 39,
           "numberProperties": [],
@@ -1289,6 +1336,422 @@
           "x": 469,
           "y": 515,
           "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 25,
+          "layer": "",
+          "name": "apple_core",
+          "persistentUuid": "85b65638-54c4-42fa-8714-9c516e15b2f1",
+          "width": 24,
+          "x": 795,
+          "y": 507,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 29,
+          "customSize": true,
+          "depth": 1,
+          "height": 25,
+          "layer": "",
+          "name": "apple_core",
+          "persistentUuid": "413dc767-7d47-45a7-b5fe-216652f5e233",
+          "width": 24,
+          "x": 831,
+          "y": 555,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 17,
+          "layer": "",
+          "name": "banana_peel",
+          "persistentUuid": "98fe3bb3-b226-4ff3-8be3-355e54888541",
+          "width": 22,
+          "x": 788,
+          "y": 555,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 17,
+          "layer": "",
+          "name": "banana_peel",
+          "persistentUuid": "899d6b6e-2ac6-4416-a265-f0d15da71a4c",
+          "width": 22,
+          "x": 834,
+          "y": 504,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 17,
+          "layer": "",
+          "name": "banana_peel",
+          "persistentUuid": "f04a579e-7b29-40f2-9c4c-665367bad43e",
+          "width": 22,
+          "x": 593,
+          "y": 517,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 17,
+          "layer": "",
+          "name": "banana_peel",
+          "persistentUuid": "3b9af55b-c6b9-4675-b288-4143d797771c",
+          "width": 22,
+          "x": 239,
+          "y": 856,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 81,
+          "customSize": true,
+          "depth": 1,
+          "height": 18,
+          "layer": "",
+          "name": "apple_core",
+          "persistentUuid": "2f990fc8-0a91-40c2-a7c0-f1be06ea3c13",
+          "width": 13,
+          "x": 429,
+          "y": 840,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 12,
+          "layer": "",
+          "name": "crumpled_paper",
+          "persistentUuid": "d9083c12-de8b-4b81-b6aa-7bb93648142f",
+          "width": 19,
+          "x": 299,
+          "y": 878,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 12,
+          "layer": "",
+          "name": "crumpled_paper",
+          "persistentUuid": "e51ba738-95a3-4d32-9227-7eb6f3150664",
+          "width": 19,
+          "x": 230,
+          "y": 826,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 9,
+          "layer": "",
+          "name": "crumpled_paper",
+          "persistentUuid": "93c61ec2-16c1-45c6-a509-9386b3ca3f58",
+          "width": 13,
+          "x": 355,
+          "y": 835,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 1,
+          "height": 12,
+          "layer": "",
+          "name": "crumpled_paper",
+          "persistentUuid": "137608c1-4b33-4345-89bd-506afa9b6437",
+          "width": 19,
+          "x": 390,
+          "y": 890,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 230,
+          "customSize": true,
+          "depth": 1,
+          "height": 12,
+          "layer": "",
+          "name": "crumpled_paper",
+          "persistentUuid": "1b306e5b-2e1b-4094-b380-09c69d1d385a",
+          "width": 19,
+          "x": 173,
+          "y": 865,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 12,
+          "layer": "",
+          "name": "crumpled_paper",
+          "persistentUuid": "f9dee11a-b797-4a19-a7d4-20cf5a7a3eb8",
+          "width": 19,
+          "x": 189,
+          "y": 880,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 12,
+          "layer": "",
+          "name": "crumpled_paper",
+          "persistentUuid": "aa1ba5ed-a48d-442f-bb59-0350bb9d311b",
+          "width": 19,
+          "x": 260,
+          "y": 831,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 20,
+          "layer": "",
+          "name": "book",
+          "persistentUuid": "fab68476-5637-43c9-82e5-b5ab727b166b",
+          "width": 25,
+          "x": 334,
+          "y": 880,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 6,
+          "customSize": true,
+          "depth": 1,
+          "height": 20,
+          "layer": "",
+          "name": "book",
+          "persistentUuid": "6d0fe23a-b799-454f-b41a-37bbddff5a7a",
+          "width": 25,
+          "x": 147,
+          "y": 886,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 17,
+          "layer": "",
+          "name": "banana_peel",
+          "persistentUuid": "8cb29d5e-666a-42e5-887b-24bca4dcdcb4",
+          "width": 22,
+          "x": 189,
+          "y": 529,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 17,
+          "layer": "",
+          "name": "banana_peel",
+          "persistentUuid": "ca2f40c8-f1b4-4187-bbb2-f0426feec4fc",
+          "width": 22,
+          "x": 323,
+          "y": 589,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 17,
+          "layer": "",
+          "name": "banana_peel",
+          "persistentUuid": "8b7979be-cdef-4b6e-890f-c2a2537251a8",
+          "width": 22,
+          "x": 376,
+          "y": 517,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 25,
+          "layer": "",
+          "name": "apple_core",
+          "persistentUuid": "3ca9f684-cd4a-4f60-8085-9b212e130527",
+          "width": 24,
+          "x": 151,
+          "y": 487,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 25,
+          "layer": "",
+          "name": "apple_core",
+          "persistentUuid": "8027c7f8-220f-4c4a-9fcf-7e89404efde6",
+          "width": 24,
+          "x": 250,
+          "y": 560,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 25,
+          "layer": "",
+          "name": "apple_core",
+          "persistentUuid": "7a0b538f-a40e-4066-afd8-23b2638cc515",
+          "width": 24,
+          "x": 300,
+          "y": 515,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 1,
+          "height": 12,
+          "layer": "",
+          "name": "crumpled_paper",
+          "persistentUuid": "0c1afeef-f336-4107-921e-7ee85cf48c1d",
+          "width": 19,
+          "x": 156,
+          "y": 547,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 1,
+          "height": 12,
+          "layer": "",
+          "name": "crumpled_paper",
+          "persistentUuid": "4bacd6c6-6588-44d9-9fb1-6705ebccd1f9",
+          "width": 19,
+          "x": 381,
+          "y": 571,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 1,
+          "height": 12,
+          "layer": "",
+          "name": "crumpled_paper",
+          "persistentUuid": "7ac98b61-bac1-40a7-a938-0edde2583337",
+          "width": 19,
+          "x": 439,
+          "y": 212,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 1,
+          "height": 12,
+          "layer": "",
+          "name": "crumpled_paper",
+          "persistentUuid": "a6cbe5f1-1d14-4872-bf1b-b11023929045",
+          "width": 19,
+          "x": 492,
+          "y": 259,
+          "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2419,6 +2882,188 @@
               }
             }
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "crumpled_paper",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/crumpled_paper.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 417,
+                            "y": 1
+                          },
+                          {
+                            "x": 417,
+                            "y": 385
+                          },
+                          {
+                            "x": 1,
+                            "y": 385
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "apple_core",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/apple",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/apple2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 22
+                          },
+                          {
+                            "x": 279,
+                            "y": 22
+                          },
+                          {
+                            "x": 279,
+                            "y": 417
+                          },
+                          {
+                            "x": 1,
+                            "y": 417
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "banana_peel",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/banana_peel",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/banana_peel2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 0
+                          },
+                          {
+                            "x": 391,
+                            "y": 0
+                          },
+                          {
+                            "x": 391,
+                            "y": 223
+                          },
+                          {
+                            "x": 10,
+                            "y": 223
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2456,6 +3101,15 @@
           },
           {
             "objectName": "eatProgress"
+          },
+          {
+            "objectName": "crumpled_paper"
+          },
+          {
+            "objectName": "apple_core"
+          },
+          {
+            "objectName": "banana_peel"
           }
         ]
       },
