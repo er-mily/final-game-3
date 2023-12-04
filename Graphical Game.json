@@ -4418,6 +4418,34 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "chore",
+                            "book",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "book",
+                            ""
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -4781,15 +4809,15 @@
       ]
     },
     {
-      "b": 196,
+      "b": 0,
       "disableInputWhenNotFocused": true,
       "mangledName": "EndOfGameWin",
       "name": "EndOfGameWin",
-      "r": 215,
+      "r": 0,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 233,
+      "v": 0,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -4815,8 +4843,8 @@
           "name": "Text",
           "persistentUuid": "38a564e8-8c41-4d1a-9add-a4865ec712e0",
           "width": 494,
-          "x": 263,
-          "y": 258,
+          "x": 551,
+          "y": 256,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -4831,8 +4859,8 @@
           "name": "Subtext",
           "persistentUuid": "6268cef2-cd05-43f2-9902-76dbec0f578b",
           "width": 626,
-          "x": 198,
-          "y": 409,
+          "x": 452,
+          "y": 404,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -4856,9 +4884,9 @@
           "textAlignment": "left",
           "characterSize": 100,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -4877,9 +4905,9 @@
           "textAlignment": "left",
           "characterSize": 60,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -5054,7 +5082,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2588250534861045,
+        "zoomFactor": 0.39833279263298693,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5069,7 +5097,7 @@
           "persistentUuid": "4d1d6153-e831-451c-b61a-7c71df65882e",
           "width": 0,
           "x": 562,
-          "y": 95,
+          "y": 59,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -5084,8 +5112,8 @@
           "name": "NewSprite",
           "persistentUuid": "96059f17-52a5-4d5c-945e-afa3f2bdfd73",
           "width": 368,
-          "x": 659,
-          "y": 522,
+          "x": 640,
+          "y": 565,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -5101,7 +5129,7 @@
           "persistentUuid": "14f3fc8a-b5e9-4584-954e-1d1aa4936540",
           "width": 791,
           "x": 412,
-          "y": 227,
+          "y": 188,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -5116,8 +5144,8 @@
           "name": "exclamation",
           "persistentUuid": "7e573726-d67c-454b-89dc-ea0aab02ed3f",
           "width": 60,
-          "x": 1012,
-          "y": 361,
+          "x": 985,
+          "y": 304,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -5132,9 +5160,24 @@
           "name": "NewSprite2",
           "persistentUuid": "aded58c1-afa1-416f-aa00-a5f71feb5bf9",
           "width": 89,
-          "x": 1047,
-          "y": 443,
+          "x": 1022,
+          "y": 408,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Button",
+          "persistentUuid": "6c3a93fc-b14e-4276-851d-ca49a7b73902",
+          "width": 0,
+          "x": 666,
+          "y": 502,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5234,10 +5277,10 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "100 seconds to do your chores before \nMom comes home!\n\nChores are labeled with \nHold down spacebar to do your chore!\nReplenish your energy here\n",
+          "string": "100 seconds to do your chores before \nMom comes home!\n\nChores are labeled with \nHold down spacebar to do your chore!\nArrow keys to move around!\nReplenish your energy here\n",
           "font": "",
           "textAlignment": "center",
-          "characterSize": 40,
+          "characterSize": 35,
           "color": {
             "b": 255,
             "g": 255,
@@ -5363,6 +5406,40 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Button",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 2,
+                "thickness": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "Let's Begin!",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 226,
+            "g": 144,
+            "r": 74
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -5382,10 +5459,42 @@
           },
           {
             "objectName": "NewSprite2"
+          },
+          {
+            "objectName": "Button"
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Button",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Untitled scene\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
