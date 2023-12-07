@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Beginning",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -871,6 +871,15 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Comedy/dd6078bfdd9a15e1459a8c1e27c44c438c789e322fa4c2bdc33447af5147cd35_Sad Drunken Party.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -902,7 +911,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.2952916551236333,
+        "zoomFactor": 0.7619362677197853,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1239,7 +1248,7 @@
           "width": 50,
           "x": 489,
           "y": 551,
-          "zOrder": 53,
+          "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1463,22 +1472,6 @@
           "x": 602,
           "y": 511,
           "zOrder": 40,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 2,
-          "height": 39,
-          "layer": "",
-          "name": "ExclamationMark",
-          "persistentUuid": "107109d0-15a0-4f4e-9cb4-7d80a29aff9b",
-          "width": 39,
-          "x": 136,
-          "y": 742,
-          "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2002,8 +1995,8 @@
           "name": "crumpled_paper",
           "persistentUuid": "541b9206-7eb0-4b52-be15-96db9960ea0d",
           "width": 18,
-          "x": 469,
-          "y": 602,
+          "x": 489,
+          "y": 429,
           "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
@@ -2018,8 +2011,8 @@
           "name": "ExclamationMark",
           "persistentUuid": "5d461075-d460-46a0-8103-485d77729cd7",
           "width": 39,
-          "x": 461,
-          "y": 556,
+          "x": 481,
+          "y": 380,
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
@@ -2034,8 +2027,8 @@
           "name": "chore",
           "persistentUuid": "886484bb-beb4-4df3-9672-4d268e6b5743",
           "width": 32,
-          "x": 464,
-          "y": 581,
+          "x": 484,
+          "y": 406,
           "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
@@ -2053,6 +2046,21 @@
           "x": 425,
           "y": 296,
           "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "addEnergy",
+          "persistentUuid": "0419b284-af2f-4175-a132-33f6e0639577",
+          "width": 0,
+          "x": 124,
+          "y": 698,
+          "zOrder": 42,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3551,7 +3559,7 @@
                 "assets\\Action background music.mp3",
                 "1",
                 "",
-                "50",
+                "40",
                 ""
               ]
             }
@@ -4238,7 +4246,7 @@
                     "3df4dbab92378e90141fcba051c383c0c4e25648bc1ae5c44af5a13551556095_Run_06.wav",
                     "2",
                     "yes",
-                    "80",
+                    "90",
                     "0.5"
                   ]
                 }
@@ -4285,12 +4293,13 @@
                 },
                 {
                   "type": {
-                    "value": "Distance"
+                    "value": "CollisionNP"
                   },
                   "parameters": [
-                    "player",
+                    "chore",
                     "ExclamationMark",
-                    "120",
+                    "",
+                    "",
                     ""
                   ]
                 }
@@ -5518,7 +5527,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.39833279263298693,
+        "zoomFactor": 0.3374665822426633,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5580,8 +5589,8 @@
           "name": "exclamation",
           "persistentUuid": "7e573726-d67c-454b-89dc-ea0aab02ed3f",
           "width": 60,
-          "x": 985,
-          "y": 304,
+          "x": 988,
+          "y": 292,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -5596,8 +5605,8 @@
           "name": "NewSprite2",
           "persistentUuid": "aded58c1-afa1-416f-aa00-a5f71feb5bf9",
           "width": 89,
-          "x": 1022,
-          "y": 408,
+          "x": 1016,
+          "y": 439,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -5611,9 +5620,25 @@
           "name": "Button",
           "persistentUuid": "6c3a93fc-b14e-4276-851d-ca49a7b73902",
           "width": 0,
-          "x": 666,
-          "y": 502,
+          "x": 542,
+          "y": 518,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "",
+          "name": "NewSprite3",
+          "persistentUuid": "da1bf9df-acea-4e91-92a7-48e29c281265",
+          "width": 77,
+          "x": 949,
+          "y": 398,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5713,7 +5738,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "100 seconds to do your chores before \nMom comes home!\n\nChores are labeled with \nHold down spacebar to do your chore!\nArrow keys to move around!\nReplenish your energy here\n",
+          "string": "60 seconds to do your chores before \nMom comes home!\n\nChores are labeled with \nPress [space] to do your chore!\nArrow keys to move around!\nChores cost energy!\nReplenish your energy here\n",
           "font": "",
           "textAlignment": "center",
           "characterSize": 35,
@@ -5867,7 +5892,7 @@
             }
           ],
           "behaviors": [],
-          "string": "Let's Begin!",
+          "string": "Click Anywhere to Begin!",
           "font": "",
           "textAlignment": "left",
           "characterSize": 50,
@@ -5876,6 +5901,67 @@
             "g": 144,
             "r": 74
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite12",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 26,
+                            "y": 23
+                          },
+                          {
+                            "x": 42,
+                            "y": 23
+                          },
+                          {
+                            "x": 42,
+                            "y": 50
+                          },
+                          {
+                            "x": 26,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -5898,22 +5984,83 @@
           },
           {
             "objectName": "Button"
+          },
+          {
+            "objectName": "NewSprite3"
           }
         ]
       },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PreloadMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\Action background music.mp3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "8a0b08bb4919e9b426a37d02dfb6ddad03dd97d88fde77b13784851b8576aa71_Lose 4.aac"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "3df4dbab92378e90141fcba051c383c0c4e25648bc1ae5c44af5a13551556095_Run_06.wav"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "07a9621bca8e162135b9ab814c4bdc8a491d6a0f07681b03020db5d04f2b65c4_Powerup 1.aac"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "cf3d278e28f6f631da5883429db0f100b27b1e2ef94ad12cfedafbb1c5b61136_1up 9.aac"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "47145ef21ad7fe6be02a0ba478b5df0761869213c56c4bcf2835f84c6c8c76af_Hit 10.aac"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "SourisSurObjet"
+                "value": "MouseButtonReleased"
               },
               "parameters": [
                 "Button",
-                "",
-                "yes",
-                ""
+                "Left"
               ]
             }
           ],
